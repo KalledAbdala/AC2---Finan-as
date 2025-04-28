@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Minhas Finanças</string>
+
+    <!-- Lista de categorias -->
+    <string-array name="categorias">
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Lazer</item>
+        <item>Saúde</item>
+        <item>Educação</item>
+    </string-array>
+</resources>
