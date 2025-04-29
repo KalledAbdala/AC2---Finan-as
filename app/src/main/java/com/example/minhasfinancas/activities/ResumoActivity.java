@@ -34,7 +34,6 @@ public class ResumoActivity extends AppCompatActivity {
         listaGastos = (List<Gasto>) getIntent().getSerializableExtra("listaGastos");
 
         if (listaGastos != null && !listaGastos.isEmpty()) {
-            // Iniciar o cálculo em segundo plano
             new Thread(new Runnable() {
                 @Override
                 public void run() {
